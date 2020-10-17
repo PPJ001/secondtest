@@ -103,7 +103,8 @@ struct boxinfo {
 struct layerlist{
     long int layereval;
     short int layerdim;
-} layers[1000];//test git
+    int ppp;
+} layers[1000];//test git888
 
 struct scrappad{
     struct scrappad *prev, *next;
